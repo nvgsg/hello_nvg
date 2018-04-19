@@ -5,7 +5,7 @@ echo "Hello NVG to STDERR" 1>&2
 # generate dataset ID
 timestamp=$(date -u +%Y%m%dT%H%M%S.%NZ)
 hash=$(echo $timestamp | sha224sum | cut -c1-5)
-id=hello_world-product-${timestamp}-${hash}
+id=hello_nvg-product-${timestamp}-${hash}
 echo "dataset ID: $id"
 
 # create dataset directory
