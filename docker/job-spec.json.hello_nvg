@@ -1,0 +1,5 @@
+{
+  "command": "/home/ops/verdi/ops/hello_nvg/run_hello_nvg.sh",
+  "recommended-queues": [ "job_worker-small" ],
+  "params": []
+}
